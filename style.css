@@ -67,6 +67,7 @@ without effecting the original class */
     color: wheat;
     font-family: 'Quattrocento Sans', sans-serif;
     align-items: center;
+    cursor: pointer;
 }
 
 .degree-section span {
