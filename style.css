@@ -1,11 +1,25 @@
+/*
+imported fonts:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Corben', cursive;
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Architects Daughter', cursive;
+*/
+
+
 /* removing all of the margins & padding */
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+
+/* for text alignment, background and text color  */
+
+body {
     /* makes it full screen */
     height: 100vh;
     display: flex;
@@ -14,5 +28,32 @@ body{
     flex-direction: column;
     align-items: center;
     /* creates a gradient with two colors */
-    background: linear-gradient(rgb(173, 66, 245), rgb(11, 37, 133))
+    background: linear-gradient(rgb(173, 66, 245), rgb(11, 37, 133));
+    font-family: 'Cormorant Garamond', serif;
+    color: antiquewhite;
+}
+
+
+/* styling for timezone
+and temperature only
+using "," and allows you to select
+multiple classes to add the same styling to */
+
+.location,
+.temperature {
+    height: 30vh;
+    /* space between icon and timezone */
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* selecting the same class again allows
+you to add additional styling to this class
+without effecting the original class */
+
+.temperature {
+    flex-direction: column;
 }
