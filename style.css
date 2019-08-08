@@ -56,4 +56,24 @@ without effecting the original class */
 
 .temperature {
     flex-direction: column;
+    font-family: 'Corben', cursive;
+}
+
+
+/* styling for the degrees  */
+
+.degree-section {
+    display: flex;
+    color: wheat;
+    font-family: 'Quattrocento Sans', sans-serif;
+    align-items: center;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
 }
