@@ -1,0 +1,18 @@
+/* removing all of the margins & padding */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    /* makes it full screen */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* creates a columns  */
+    flex-direction: column;
+    align-items: center;
+    /* creates a gradient with two colors */
+    background: linear-gradient(rgb(173, 66, 245), rgb(11, 37, 133))
+}
