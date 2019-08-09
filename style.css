@@ -70,11 +70,15 @@ without effecting the original class */
     cursor: pointer;
 }
 
+/* degree section is the main div and span is
+within the div. we are styling the parts within
+the div of the span */
 .degree-section span {
     margin: 10px;
     font-size: 30px;
 }
 
+/* styling the h2 within the div of degree section */
 .degree-section h2 {
     font-size: 40px;
 }
