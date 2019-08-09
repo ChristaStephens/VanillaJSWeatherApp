@@ -18,9 +18,12 @@ window.addEventListener('load', () => {
             (position => {
                 long = position.coords.longitude;
                 lat = position.coords.latitude;
-                const api = 'https://api.darksky.net/forecast/8428b105f7d1f93347ffb78b2ef9761e/37.8267,-122.4233'
-            })
-    } else {
-        h1.textContent = "Either your browser doesn't support geolocation or it needs to be enabled."
+                //using interpolation "`` & {}" to insert lat and long
+                const api = `https://api.darksky.net/forecast/8428b105f7d1f93347ffb78b2ef9761e/${lat},${long}`;
+            });
+
+
+            fetch(api)
     }
+
 });
