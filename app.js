@@ -22,8 +22,12 @@ window.addEventListener('load', () => {
                 const api = `https://api.darksky.net/forecast/8428b105f7d1f93347ffb78b2ef9761e/${lat},${long}`;
             });
 
-
+            //to get information
+            //a get request of the api url
+            //after it gets the information it carries out the "then" statement.
+            //to do something with the "(data)"
             fetch(api)
+            .then(data)
     }
 
 });
